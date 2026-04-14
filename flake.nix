@@ -26,6 +26,7 @@
             pkgs.bc
             pkgs.clang-tools
             pkgs.bear
+            pkgs.gdb
             pkgs.qemu
             pkgs.pkgsCross.riscv64.buildPackages.gcc
             pkgs.pkgsCross.riscv64.buildPackages.binutils

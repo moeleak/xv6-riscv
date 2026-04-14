@@ -129,6 +129,7 @@ UPROGS=\
 	$U/_cat\
 	$U/_echo\
 	$U/_forktest\
+	$U/_hello\
 	$U/_grep\
 	$U/_init\
 	$U/_kill\
@@ -146,8 +147,8 @@ UPROGS=\
 	$U/_forphan\
 	$U/_dorphan\
 
-fs.img: mkfs/mkfs README $(UPROGS)
-	mkfs/mkfs fs.img README $(UPROGS)
+fs.img: mkfs/mkfs hello.txt README $(UPROGS)
+	mkfs/mkfs fs.img hello.txt README $(UPROGS)
 
 -include kernel/*.d user/*.d
 
