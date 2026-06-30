@@ -28,6 +28,7 @@
             pkgs.bear
             pkgs.gdb
             pkgs.qemu
+            pkgs.gcc
             pkgs.pkgsCross.riscv64.buildPackages.gcc
             pkgs.pkgsCross.riscv64.buildPackages.binutils
           ];
